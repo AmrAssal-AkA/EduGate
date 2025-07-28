@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.Banner {
+    background-image: url(./assets//Header-Page/Banner.svg);
+}
