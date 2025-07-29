@@ -11,13 +11,13 @@ export default function Header() {
         ];
         let [open , setOpen] = useState(false);
 return (
-    <div className='shadow-md w-full   '>
+    <div className='shadow-md w-full fixed top-0 left-0'>
     <div className='md:flex items-center justify-between bg-white py-4 md:px-10 px-7 '>
         <div className='font-bold text-2xl cursor-pointer flex items-center font-stretch-normal text-gray-900'>
             <span className='text-3xl text-green-600 mr-2 pt-2 '>
                 <ion-icon name="school-outline"></ion-icon>
             </span>
-            EduGate
+            AsalAcademy
         </div>
         <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>
             <ion-icon name={open ? "close" : "menu"}></ion-icon>

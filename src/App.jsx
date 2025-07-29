@@ -11,6 +11,7 @@ function App() {
 
   return (
   <>
+  <BrowserRouter>
       <Header />
       <Routes>
         <Route index element={<HomePage />} />
@@ -18,6 +19,7 @@ function App() {
         <Route path='/resources' element={<Resources/>} />
         <Route path='/contact' element={<Contact/>} />
       </Routes>
+    </BrowserRouter>
     </>
   )
 }
