@@ -30,12 +30,16 @@ return (
             </li>
             ))
         }
+        <Link to='login'>
         <Button>
             Login
         </Button>
+        </Link>
+        <Link to='register'>
         <Button>
             register
         </Button>
+        </Link>
         </ul>           
     </div>
     </div>
